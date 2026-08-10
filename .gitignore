@@ -1,0 +1,28 @@
+# WordPress core (not committed — this repo only tracks custom theme/plugin/docs code)
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/xmlrpc.php
+/index.php
+/wp-config.php
+
+# Uploads / generated content
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+/wp-content/backup-db/
+/wp-content/blogs.dir/
+
+# Third-party plugins/themes not authored in this repo
+/wp-content/plugins/*
+!/wp-content/plugins/simple-faq-accordion/
+/wp-content/themes/*
+!/wp-content/themes/support-hub-child/
+
+# Local env / OS files
+.env
+.DS_Store
+Thumbs.db
+node_modules/
+
+# Docker volumes are managed by Docker, not git
